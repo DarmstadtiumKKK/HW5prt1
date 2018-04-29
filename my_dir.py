@@ -137,6 +137,7 @@ Copy_dir=MyDir.copy('copy_vault')  # Проверка Copy
 MyDir.clear()  # Проверка Clear
 print(list(MyDir.items()))
 print(MyDir.pop('key4',1))  # Проверка Pop
+print(MyDir.pop('key_wich_not_excist',1))  # Проверка Pop
 print(Copy_dir.popitem())  # Проверка Popitem
 MyDir.setdefault('key3')  # Проверка Setdefault
 print(list(MyDir.items()))
